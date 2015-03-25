@@ -20,7 +20,7 @@ from PyQt4 import *
 from form1 import *
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
+    app = QtCore.QApplication(sys.argv)
     f = Form1()
     f.show()
     app.setMainWidget(f)
